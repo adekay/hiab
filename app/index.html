@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" data-ng-app="app" data-ng-strict-di class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" data-ng-app="app" data-ng-strict-di class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Health in a box</title>
+    <meta name="description" content="AngularJS Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+</head>
+
+<body data-ng-controller="IndexController as IC">
+
+    <div class="side-menu">
+        <div class="profile">
+            <img src="assets/images/face-placeholder-male.jpg" alt="">
+        </div>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" data-ng-class="IC.getClass('root.dashboard')">
+                <a data-ui-sref="root.dashboard">
+                    <span ng-include="'assets/images/dashboard.svg'"></span>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li role="presentation" data-ng-class="IC.getClass('root.epidemiological')">
+                <a data-ui-sref="root.epidemiological.pictograph">
+                    <span ng-include="'assets/images/health-report.svg'"></span>
+                    <span>Epidemiological Data</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span ng-include="'assets/images/health-institutions.svg'"></span>
+                    <span>Health Institutions</span>
+                </a>
+            </li>
+            <li role="presentation" data-ng-class="IC.getClass('root.financial')">
+                <a data-ui-sref="root.financial.revenue">
+                    <span ng-include="'assets/images/financial-reports.svg'"></span>
+                    <span>Financial Reports</span>
+                </a>
+            </li>
+            <li role="presentation" data-ng-class="IC.getClass('root.settlement')">
+                <a data-ui-sref="root.settlement.breakdown">
+                    <span ng-include="'assets/images/Rectangle 1 copy 2.svg'"></span>
+                    <span>Settlement Log</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span ng-include="'assets/images/outsourced-services.svg'"></span>
+                    <span>Outsourced Services</span>
+                </a>
+            </li>
+            <li role="presentation" data-ng-class="IC.getClass('root.administration')">
+                <a data-ui-sref="root.administration">
+                    <span ng-include="'assets/images/bed.svg'"></span>
+                    <span>Hospital Adminstration</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span ng-include="'assets/images/fee-config.svg'"></span>
+                    <span>Fee Configuration</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span ng-include="'assets/images/settings.svg'"></span>
+                    <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="top-bar">
+        <div class="tools">
+            <a data-ng-click="IC.navOff()" class="toggle-button off">
+                <img src="assets/images/toggle.png" alt="">
+            </a>
+            <a data-ng-click="IC.navOn()" class="toggle-button on">
+                <img src="assets/images/toggle.png" alt="">
+            </a>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+                <img data-ng-click="IC.searchToggle()" src="assets/images/search.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="container-fluid">
+            <section class="content" data-ui-view="content"></section>
+        </div>
+    </div>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- In production use:
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+        <script src="build/angularjs-template-x.x.x.min.js></script>
+        -->
+    <!-- Bower scripts: -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- Application scripts: -->
+    <script src="core/app.js"></script>
+    <script src="core/app.routes.js"></script>
+    <script src="core/indexController.js"></script>
+    <script src="core/dashboard/dashboardController.js"></script>
+    <script src="core/epidemiological/pictographController.js"></script>
+    <script src="core/epidemiological/casesController.js"></script>
+    <script src="core/epidemiological/trendsController.js"></script>
+    <script src="core/financial/revenueController.js"></script>
+    <script src="core/financial/headsController.js"></script>
+    <script src="core/settlement/breakdownController.js"></script>
+    <script src="core/settlement/adviceController.js"></script>
+    <script src="core/administration/administrationController.js"></script>
+    <script src="core/administration/physiciansController.js"></script>
+    <script src="core/administration/pdetailsController.js"></script>
+
+
+    <script src="core/form/formController.js"></script>
+    <script src="core/json/jsonController.js"></script>
+    <script src="core/json/jsonService.js"></script>
+    <script src="core/mountains/detailsController.js"></script>
+    <script src="core/mountains/listController.js"></script>
+    <script src="core/mountains/mountainsService.js"></script>
+    <script src="core/navigation/breadcrumbsController.js"></script>
+    <script src="core/navigation/footerController.js"></script>
+    <script src="core/navigation/headerController.js"></script>
+    <script src="core/navigation/menuController.js"></script>
+    <script src="core/todos/categoriesService.js"></script>
+    <script src="core/todos/newController.js"></script>
+    <script src="core/todos/todosService.js"></script>
+    <script src="core/todos/listController.js"></script>
+    <script src="common/directives/aboutDirective.js"></script>
+    <script src="common/directives/datepickerDirective.js"></script>
+    <script src="common/constants/constants.js"></script>
+    <script src="common/filters/filters.js"></script>
+</body>
+
+</html>
