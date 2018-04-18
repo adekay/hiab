@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # angularjs-template - advanced template for AngularJS apps
 
 [![Build Status](https://travis-ci.org/pamigomp/angularjs-template.svg?branch=master)](https://travis-ci.org/pamigomp/angularjs-template)
@@ -300,3 +301,7 @@ The MIT License, Copyright (c) 2016 Michal Pietrzak
 [karma]: http://karma-runner.github.io
 [travis]: https://travis-ci.org/
 [heroku]: https://www.heroku.com
+=======
+# hiab
+Health in a box AngluarJs app front end
+>>>>>>> 2d93804dcc12ad871bd8b0e8e315b0d787ab11b1
