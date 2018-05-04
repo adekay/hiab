@@ -1,66 +1,170 @@
 <div class="trends">
-        <div class="info-bar">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="info">
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Hospital</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+    <div class="info-bar">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info">
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Hospital</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Status</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>FHI Type</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Age Range</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Start date - End date</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pages">
+        <div class="tabs">
+            <div>
+                <a data-ui-sref="root.epidemiological.pictograph">Health Pictograph</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.epidemiological.cases">Reported Cases</a>
+            </div>
+            <div class="active">
+                <a data-ui-sref="root.epidemiological.trends">Health Trends</a>
+            </div>
+        </div>
+        <div class="pages">
+            <div class="">
+                <div class="toggle-chart">
+                    <span class="">Line</span>
+                    <span class="">|</span>
+                    <span class="">Bar</span>
+                    <span class="">|</span>
+                    <span class="">Pie</span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="graph">
+                            <div class="header">
+                                <h3>Status</h3>
+                            </div>
+                            <div class="sub-header">
+                                <span class="type-a">
+                                    <span></span> Malaria</span>
+                                <span class="type-a">
+                                    <span></span> Lassa Fever</span>
+                                <span class="type-a">
+                                    <span></span> Cholera</span>
+                                <span class="type-a">
+                                    <span></span> Typhoid</span>
+                                <span class="type-a">
+                                    <span></span> Diabetes</span>
+                            </div>
+                            <div class="panel-graph">
+                                    <nvd3 options="ETC.options" data="ETC.data" class="line-chart"></nvd3>
+                            </div>
                         </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Status</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="graph">
+                            <div class="header">
+                                <h3>Status</h3>
+                            </div>
+                            <div class="sub-header">
+                                <span class="type-a">
+                                    <span></span> Malaria</span>
+                                <span class="type-a">
+                                    <span></span> Lassa Fever</span>
+                                <span class="type-a">
+                                    <span></span> Cholera</span>
+                                <span class="type-a">
+                                    <span></span> Typhoid</span>
+                                <span class="type-a">
+                                    <span></span> Diabetes</span>
+                            </div>
+                            <div class="panel-graph">
+                                    <nvd3 options="ETC.options" data="ETC.data" class="line-chart"></nvd3>
+                            </div>
                         </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>FHI Type</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="graph">
+                            <div class="header">
+                                <h3>Status</h3>
+                            </div>
+                            <div class="sub-header">
+                                <span class="type-a">
+                                    <span></span> Malaria</span>
+                                <span class="type-a">
+                                    <span></span> Lassa Fever</span>
+                                <span class="type-a">
+                                    <span></span> Cholera</span>
+                                <span class="type-a">
+                                    <span></span> Typhoid</span>
+                                <span class="type-a">
+                                    <span></span> Diabetes</span>
+                            </div>
+                            <div class="panel-graph">
+                                <nvd3 options="ETC.options" data="ETC.data" class="line-chart"></nvd3>
+                            </div>
                         </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Age Range</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Start date - End date</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="graph">
+                            <div class="header">
+                                <h3>Status</h3>
+                            </div>
+                            <div class="sub-header">
+                                <span class="type-a">
+                                    <span></span> Malaria</span>
+                                <span class="type-a">
+                                    <span></span> Lassa Fever</span>
+                                <span class="type-a">
+                                    <span></span> Cholera</span>
+                                <span class="type-a">
+                                    <span></span> Typhoid</span>
+                                <span class="type-a">
+                                    <span></span> Diabetes</span>
+                            </div>
+                            <div class="panel-graph">
+                                    <nvd3 options="ETC.options" data="ETC.data" class="line-chart"></nvd3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div class="tab-pages">
-            <div class="tabs">
-                <div><a data-ui-sref="root.epidemiological.pictograph">Health Pictograph</a></div>
-                <div><a data-ui-sref="root.epidemiological.cases">Reported Cases</a></div>
-                <div class="active"><a data-ui-sref="root.epidemiological.trends">Health Trends</a></div>
-            </div>
-            <div class="pages">
-    
-            </div>
-        </div>
     </div>
+</div>

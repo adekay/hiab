@@ -163,7 +163,23 @@ body {
 
 /* top bar styles end */
 
-/* main page styles end */
+/* chart styles */
+
+.line-chart .nvd3 .nv-axis path.domain {
+    stroke-opacity: 0;
+}
+
+.line-chart .nvd3 .nv-axis.nv-x path.domain {
+
+}
+
+.line-chart .nvd3 .nv-axis.nv-y path.domain {
+
+}
+
+/* chart styles end */
+
+/* main page styles */
 
 .page {
     margin-left: 130px;
@@ -443,7 +459,8 @@ body {
 }
 
 .dashboard-panel {
-    height: 300px;
+    min-height: 300px;
+    height: 100%;
     background-color: #FFFFFF;
     margin: 0px 0px 20px 0px;
     padding: 15px;
@@ -736,3 +753,49 @@ body {
 }
 
 /* administration page style end */
+
+/* trends page style */
+
+.trends .sub-header {
+    display: flex;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    padding: 5px 15px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.trends .sub-header .type-a {
+    display: inline-block;
+    margin: 0 3px;
+    color: #9DA8BC;
+}
+
+.trends .sub-header .type-a span {
+    height: 10px;
+    width: 10px;
+    background-color: #E21B00;
+    display: inline-block;
+}
+
+.trends .sub-header .type-a:nth-child(1) span {
+    background-color: #DA80D1;
+}
+
+.trends .sub-header .type-a:nth-child(2) span {
+    background-color: #67B0C3;
+}
+
+.trends .sub-header .type-a:nth-child(3) span {
+    background-color: #FFD876;
+}
+
+.trends .sub-header .type-a:nth-child(4) span {
+    background-color: #B8FF2F;
+}
+
+.trends .sub-header .type-a:nth-child(5) span {
+    background-color: #73CBA7;
+}
+
+/* trends page style end */

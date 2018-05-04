@@ -319,16 +319,44 @@
                     }
                 }
             })
-            .state('root.administration.physicians.pdetails', {
-                url: '/pdetails',
+            .state('root.administration.physicians.phydetails', {
+                url: '/phydetails',
                 data: {
                     title: 'Hospital Administration Physician Details',
                     breadcrumb: 'Hospital Administration Physician Details'
                 },
                 views: {
                     'content@': {
-                        templateUrl: 'core/administration/pdetails.html',
-                        controller: 'PdetailsController',
+                        templateUrl: 'core/administration/phydetails.html',
+                        controller: 'PhydetailsController',
+                        controllerAs: 'APDC'
+                    }
+                }
+            })
+            .state('root.administration.patients', {
+                url: '/patients',
+                data: {
+                    title: 'Hospital Patients',
+                    breadcrumb: 'Hospital Patients'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/patients.html',
+                        controller: 'PatientsController',
+                        controllerAs: 'APC'
+                    }
+                }
+            })
+            .state('root.administration.patients.patdetails', {
+                url: '/patdetails',
+                data: {
+                    title: 'Hospital Patients Details',
+                    breadcrumb: 'Hospital Patients Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/patdetails.html',
+                        controller: 'PatdetailsController',
                         controllerAs: 'APDC'
                     }
                 }

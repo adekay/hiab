@@ -3,6 +3,7 @@
 
     angular.module('app', [
         'ui.router',
+        'nvd3',
         'app.index',
         'app.dashboard',
         'app.epidemiological.pictograph',
@@ -14,7 +15,9 @@
         'app.settlement.advice',
         'app.administration',
         'app.administration.physicians',
-        'app.administration.physicians.pdetails',
+        'app.administration.physicians.phydetails',
+        'app.administration.patients',
+        'app.administration.patients.patdetails',
         'app.form',
         'app.json',
         'app.mountains.details',
