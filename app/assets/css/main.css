@@ -635,7 +635,7 @@ body {
 }
 
 .dashboard .responsive-table {
-    height: 100px;
+    /* height: 100px; */
 }
 
 /* dashboard page style end */
@@ -652,7 +652,7 @@ body {
 }
 
 .administration .responsive-table {
-    height: 150px;
+    /* height: 150px; */
 }
 
 .administration h3.sub-title {
@@ -755,6 +755,16 @@ body {
 /* administration page style end */
 
 /* trends page style */
+
+.trends .graph {
+    margin: 30px;
+}
+
+.trends .header h3 {
+    color: #78859A;
+    font-size: 19px;
+    font-weight: 700;
+}
 
 .trends .sub-header {
     display: flex;

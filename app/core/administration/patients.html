@@ -1,121 +1,188 @@
 <div class="patients">
-        <div class="info-bar">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="info">
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Health Institution</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>FHI Type</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Patient Name</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option disabled selected hidden>Start date - End date</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
+    <div class="info-bar">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info">
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Health Institution</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>FHI Type</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Patient Name</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Start date - End date</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div class="tab-pages">
-            <div class="tabs">
-                <div class="active">
-                    <a data-ui-sref="root.administration.patients">Patients</a>
-                </div>
-                <div class="back">
-                    <a data-ui-sref="root.administration">&lt; back</a>
-                </div>
+    </div>
+
+    <div class="tab-pages">
+        <div class="tabs">
+            <div class="active">
+                <a data-ui-sref="root.administration.patients">Patients</a>
             </div>
-            <div class="pages">
-                <div class="responsive-table type-b">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>FHI Name</th>
-                                <th>Patient Name</th>
-                                <th>Patient ID</th>
-                                <th>Diseases</th>
-                                <th>Diseases Code</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td>500,000</td>
-                                <td>300,000</td>
-                                <td>78,400</td>
-                                <td>34,123</td>
-                                <td>Diseases Code</td>
-                                <td><a data-ui-sref="root.administration.patients.patdetails">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>500,000</td>
-                                <td>300,000</td>
-                                <td>78,400</td>
-                                <td>34,123</td>
-                                <td>Diseases Code</td>
-                                <td><a data-ui-sref="root.administration.patients.patdetails">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>500,000</td>
-                                <td>300,000</td>
-                                <td>78,400</td>
-                                <td>34,123</td>
-                                <td>Diseases Code</td>
-                                <td><a data-ui-sref="root.administration.patients.patdetails">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>500,000</td>
-                                <td>300,000</td>
-                                <td>78,400</td>
-                                <td>34,123</td>
-                                <td>Diseases Code</td>
-                                <td><a data-ui-sref="root.administration.patients.patdetails">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>500,000</td>
-                                <td>300,000</td>
-                                <td>78,400</td>
-                                <td>34,123</td>
-                                <td>Diseases Code</td>
-                                <td><a data-ui-sref="root.administration.patients.phydetails">View Details</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="back">
+                <a data-ui-sref="root.administration">&lt; back</a>
+            </div>
+        </div>
+        <div class="pages">
+            <div class="title-bar">
+                <span class="title">Patients List</span>
+            </div>
+            <div class="responsive-table type-b">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>FHI Type</th>
+                            <th>FHI Name</th>
+                            <th>Patient Name</th>
+                            <th>Patient ID</th>
+                            <th>Diseases</th>
+                            <th>Diseases Code</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>Mohammed Umar</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>Dr. Ojobo Umar</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>Dr Adebowale Benson</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>Mohammed Umar</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>Dr. Ojobo Umar</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>Dr Adebowale Benson</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>Mohammed Umar</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>Dr. Ojobo Umar</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>Dr Adebowale Benson</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+</div>
