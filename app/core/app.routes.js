@@ -5,9 +5,9 @@
 
         .config(config);
 
-    config.$inject = ['$stateProvider', '$urlRouterProvider'];
+    config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
-    function config($stateProvider, $urlRouterProvider) {
+    function config($stateProvider, $urlRouterProvider, $locationProvider) {
         $urlRouterProvider.when('', '/dashboard');
         $urlRouterProvider.when('/', '/dashboard');
         $urlRouterProvider.when('/epidemiological', '/epidemiological/pictograph');
@@ -361,5 +361,8 @@
                     }
                 }
             });
+
+        //$locationProvider.hashPrefix(''); // by default '!'
+        //$locationProvider.html5Mode(true);
     }
 })();
