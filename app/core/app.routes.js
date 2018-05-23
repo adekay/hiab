@@ -10,8 +10,8 @@
     function config($stateProvider, $urlRouterProvider, $locationProvider) {
         $urlRouterProvider.when('', '/dashboard');
         $urlRouterProvider.when('/', '/dashboard');
-        $urlRouterProvider.when('/epidemiological', '/epidemiological/pictograph');
-        $urlRouterProvider.when('/epidemiological/', '/epidemiological/pictograph');
+        $urlRouterProvider.when('/epidemiological', '/epidemiological/cases');
+        $urlRouterProvider.when('/epidemiological/', '/epidemiological/cases');
         $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('root', {
