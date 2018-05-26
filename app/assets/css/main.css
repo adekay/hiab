@@ -239,7 +239,7 @@ body {
 }
 
 .tab-pages .tabs a {
-    width: 143px;
+    padding: 5px 10px;
     height: 40px;
     padding-bottom: 5px;
     display: flex;

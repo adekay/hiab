@@ -1,0 +1,239 @@
+<div class="stocks">
+    <div class="info-bar">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info">
+                    <div>
+                        <select>
+                            <option disabled selected hidden>FHI Type</option>
+                            <option>ALL</option>
+                            <option>FTH</option>
+                            <option>FMC</option>
+                            <option>SH</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Health Institution</option>
+                            <option>Any</option>
+                            <option>FTH, Abakaliki</option>
+                            <option>NOH, Enugu</option>
+                            <option>LUTH, Lagos</option>
+                            <option>LASUTH, Lagos</option>
+                            <option>FMC, ido-Ekiti</option>
+                            <option>NEC, Kaduna</option>
+                            <option>JUTH, Jos</option>
+                            <option>FMC, Umuahia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Item</option>
+                            <option>Any</option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected hidden>Start date - End date</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-bar">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info">
+                    <div class="revenue">
+                        <h4>40.9k</h4>
+                        <span class="little">Total Drugs Generated</span>
+                    </div>
+                    <div class="revenue">
+                        <h4>25.7k</h4>
+                        <span class="little">Total Drugs Sold</span>
+                    </div>
+                    <div class="revenue">
+                        <h4>28.6k</h4>
+                        <span class="little">Total Prescriptions</span>
+                    </div>
+                    <div class="revenue">
+                        <h4>11.4k</h4>
+                        <span class="little">Total Drugs in Stock</span>
+                    </div>
+                    <div class="revenue">
+                        <h4>11.4k</h4>
+                        <span class="little">Total Substandard Drugs</span>
+                    </div>
+                    <div class="revenue">
+                        <h4>11.4k</h4>
+                        <span class="little">Total Expired Drugs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pages">
+        <div class="tabs">
+            <div>
+                <a data-ui-sref="root.administration.drugSales">Drug Sales</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.administration.stockBalance">Stock Balance</a>
+            </div>
+            <div class="active">
+                <a data-ui-sref="root.administration.drugIntelligence">Drug Use Intelligence</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.administration.drugPerDisease">Drug Per Disease</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.administration.drugSupply">Drug Supply</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.administration.substandardDrug">Substandard Drugs</a>
+            </div>
+            <div>
+                <a data-ui-sref="root.administration.expiredDrug">Expired Drug</a>
+            </div>
+            <div class="back">
+                <a data-ui-sref="root.administration">&lt; back</a>
+            </div>
+        </div>
+        <div class="pages">
+            <div class="title-bar">
+                <span class="title">Patients List</span>
+            </div>
+            <div class="responsive-table type-b">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>FHI Type</th>
+                            <th>FHI Name</th>
+                            <th>Patient ID</th>
+                            <th>Diseases</th>
+                            <th>Diseases Code</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>FTH, Abakaliki</td>
+                            <td>78400</td>
+                            <td>Fungal Infection</td>
+                            <td>FI09636</td>
+                            <td>On Prescription</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SH</td>
+                            <td>NOH, Enugu</td>
+                            <td>612465</td>
+                            <td>Brain Tumor</td>
+                            <td>BT904534</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FTH</td>
+                            <td>LUTH, Lagos</td>
+                            <td>34123</td>
+                            <td>Shingles</td>
+                            <td>SG943590</td>
+                            <td>On Admission</td>
+                            <td>
+                                <a data-ui-sref="root.administration.patients.patdetails">View Details</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

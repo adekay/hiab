@@ -360,6 +360,104 @@
                         controllerAs: 'APDC'
                     }
                 }
+            })
+            .state('root.administration.drugSales', {
+                url: '/drug_sales',
+                data: {
+                    title: 'Hospital drug sales Details',
+                    breadcrumb: 'Hospital drug sales Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/drugSales.html',
+                        controller: 'DrugSalesController',
+                        controllerAs: 'ADSC'
+                    }
+                }
+            })
+            .state('root.administration.stockBalance', {
+                url: '/stock_balance',
+                data: {
+                    title: 'Hospital stock balance Details',
+                    breadcrumb: 'Hospital stock balance Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/stockBalance.html',
+                        controller: 'StockBalanceController',
+                        controllerAs: 'ASBC'
+                    }
+                }
+            })
+            .state('root.administration.drugIntelligence', {
+                url: '/drug_intelligence',
+                data: {
+                    title: 'Hospital drug intelligence Details',
+                    breadcrumb: 'Hospital drug intelligence Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/drugIntelligence.html',
+                        controller: 'DrugIntelligenceController',
+                        controllerAs: 'ADIC'
+                    }
+                }
+            })
+            .state('root.administration.drugPerDisease', {
+                url: '/drug_per_disease',
+                data: {
+                    title: 'Hospital Drug Per Disease Details',
+                    breadcrumb: 'Hospital Drug Per Disease Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/drugPerDisease.html',
+                        controller: 'DrugPerDiseaseController',
+                        controllerAs: 'ADPDC'
+                    }
+                }
+            })
+            .state('root.administration.drugSupply', {
+                url: '/drug_supply',
+                data: {
+                    title: 'Hospital drug supply Details',
+                    breadcrumb: 'Hospital drug supply Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/drugSupply.html',
+                        controller: 'DrugSupplyController',
+                        controllerAs: 'ADSC'
+                    }
+                }
+            })
+            .state('root.administration.substandardDrug', {
+                url: '/substandard_drug',
+                data: {
+                    title: 'Hospital substandard drug Details',
+                    breadcrumb: 'Hospital substandard drug Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/substandardDrug.html',
+                        controller: 'SubstandardDrugController',
+                        controllerAs: 'ASDC'
+                    }
+                }
+            })
+            .state('root.administration.expiredDrug', {
+                url: '/expired_drug',
+                data: {
+                    title: 'Hospital expired Drug Details',
+                    breadcrumb: 'Hospital expired Drug Details'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/administration/stocks/expiredDrug.html',
+                        controller: 'ExpiredDrugController',
+                        controllerAs: 'AEDC'
+                    }
+                }
             });
 
         //$locationProvider.hashPrefix(''); // by default '!'
