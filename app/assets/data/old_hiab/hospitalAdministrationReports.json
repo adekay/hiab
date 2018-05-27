@@ -1,0 +1,102 @@
+[
+	{
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "257835",
+		"Disease Code": "TY860484",
+		"Status": "Critical",
+		"Age": "38",
+		"Gender": "Female",
+		"Doc ID": "PF45678",
+		"Department": "pregnancy"
+	},
+	{
+		"FHI Name": "LUTH, Lagos",
+		"Patient ID": "286249",
+		"Disease Code": "LK567982",
+		"Status": "Critical",
+		"Age": "73",
+		"Gender": "Female",
+		"Doc ID": "LE44562",
+		"Department": "Oncology"
+	},
+	{
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "756984",
+		"Disease Code": "DG858303",
+		"Status": "Minor",
+		"Age": "27",
+		"Gender": "Male",
+		"Doc ID": "YT23459",
+		"Department": "General 2"
+	},
+	{
+		"FHI Name": "FMC, ido-Ekiti",
+		"Patient ID": "862495",
+		"Disease Code": "KU742316",
+		"Status": "Critical",
+		"Age": "44",
+		"Gender": "Female",
+		"Doc ID": "HG79562",
+		"Department": "Oncology"
+	},
+	{
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "126569",
+		"Disease Code": "DE953167",
+		"Status": "Critical",
+		"Age": "45",
+		"Gender": "Female",
+		"Doc ID": "WT25647",
+		"Department": "Pediatric"
+	},
+	{
+		"FHI Name": "NEC, Kaduna",
+		"Patient ID": "853124",
+		"Disease Code": "YY226639",
+		"Status": "Minor",
+		"Age": "88",
+		"Gender": "Male",
+		"Doc ID": "IO89654",
+		"Department": "ICU"
+	},
+	{
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "958743",
+		"Disease Code": "PO256871",
+		"Status": "Minor",
+		"Age": "17",
+		"Gender": "Male",
+		"Doc ID": "SA32569",
+		"Department": "pregnancy"
+	},
+	{
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "456128",
+		"Disease Code": "QT943267",
+		"Status": "Critical",
+		"Age": "56",
+		"Gender": "Female",
+		"Doc ID": "KK34939",
+		"Department": "Oncology"
+	},
+	{
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "753492",
+		"Disease Code": "NF652478",
+		"Status": "Minor",
+		"Age": "32",
+		"Gender": "Male",
+		"Doc ID": "OW36987",
+		"Department": "ICU"
+	},
+	{
+		"FHI Name": "LASUTH, Lagos",
+		"Patient ID": "333665",
+		"Disease Code": "OO252698",
+		"Status": "Minor",
+		"Age": "67",
+		"Gender": "Male",
+		"Doc ID": "BV435874",
+		"Department": "General"
+	}
+]

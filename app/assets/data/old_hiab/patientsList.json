@@ -1,0 +1,74 @@
+[
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "78400",
+		"Diseases": "Fungal Infection",
+		"Diseases Code": "FI09636",
+		"Status": "On Prescription"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "612465",
+		"Diseases": "Brain Tumor",
+		"Diseases Code": "BT904534",
+		"Status": "On Admission"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Patient ID": "34123",
+		"Diseases": "Shingles",
+		"Diseases Code": "SG943590",
+		"Status": "On Admission"
+	},
+		{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "78400",
+		"Diseases": "Fungal Infection",
+		"Diseases Code": "FI09636",
+		"Status": "On Prescription"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "612465",
+		"DIseases": "Brain Tumor",
+		"Diseases Code": "BT904534",
+		"Status": "On Admission"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Patient ID": "34123",
+		"DIseases": "Shingles",
+		"Diseases Code": "SG943590",
+		"Status": "On Admission"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Patient ID": "78400",
+		"DIseases": "Fungal Infection",
+		"Diseases Code": "FI09636",
+		"Status": "On Prescription"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NOH, Enugu",
+		"Patient ID": "612465",
+		"DIseases": "Brain Tumor",
+		"Diseases Code": "BT904534",
+		"Status": "On Admission"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Patient ID": "34123",
+		"DIseases": "Shingles",
+		"Diseases Code": "SG943590",
+		"Status": "On Admission"
+	}
+]

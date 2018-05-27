@@ -1,0 +1,75 @@
+[
+	{
+		"Patient Name": "Dr Adebowale Albert",
+		"Health Institution": "ABUTH, Zaria",
+		"Total patients Attended To": "350",
+		"Specialization": "Oncology",
+		"Department": "Oncology Clinic",
+		"table": [
+			{
+				"Patient ID": "654843",
+				"Age": "3878",
+				"Gender": "Male",
+				"Investigation": "blood Test",
+				"Diagnosis": "Typhiod",
+				"Prescription": "Azitromicine 10mg",
+				"Details": "One tablet taken 3 times daily"
+			},
+			{
+				"Patient ID": "874239",
+				"Age": "42",
+				"Gender": "Male",
+				"Investigation": "eye test",
+				"Diagnosis": "Myopia",
+				"Prescription": "Cod liver oil",
+				"Details": "One table spoon 2 times daily"
+			},
+			{
+				"Patient ID": "258964",
+				"Age": "17",
+				"Gender": "Female",
+				"Investigation": "TCP Test",
+				"Diagnosis": "Scabies",
+				"Prescription": "Augmenting 200mg",
+				"Details": "Two tablet taken 2 times daily"
+			},
+			{
+				"Patient ID": "102368",
+				"Age": "61",
+				"Gender": "Female",
+				"Investigation": "Swabe Test",
+				"Diagnosis": "Ovarian cancer",
+				"Prescription": "Natrocipiline",
+				"Details": "One tablet taken once times daily"
+			},
+			{
+				"Patient ID": "698741",
+				"Age": "27",
+				"Gender": "Male",
+				"Investigation": "Malaria Test",
+				"Diagnosis": "Malaria",
+				"Prescription": "Lonart DS",
+				"Details": "One table taken 2 times daily"
+			},
+			{
+				"Patient ID": "254698",
+				"Age": "32",
+				"Gender": "Female",
+				"Investigation": "Skin Test",
+				"Diagnosis": "Rashes",
+				"Prescription": "Zinate 5mg",
+				"Details": "Two table taken 4 times daily"
+			},
+			{
+				"Patient ID": "546945",
+				"Age": "52",
+				"Gender": "Male",
+				"Investigation": "Lungs Test",
+				"Diagnosis": "Broncitise",
+				"Prescription": "Actified 200mg",
+				"Details": "One tablet taken 2 times daily"
+			}
+			
+		]
+	}
+]

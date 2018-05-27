@@ -687,7 +687,7 @@ body {
 
 .administration .shadow-panel .details {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -703,9 +703,11 @@ body {
     justify-content: center;
     align-items: center;
     color: #78859A;
+    border: 1px dashed #ccc;
+    border-radius: 100%;
 }
 
-.administration .shadow-panel .graph_info.bg-circlea {
+/* .administration .shadow-panel .graph_info.bg-circlea {
     background-image: url(../../assets/images/circlea.png);
 }
 
@@ -715,7 +717,7 @@ body {
 
 .administration .shadow-panel .graph_info.bg-circlec {
     background-image: url(../../assets/images/circlec.png);
-}
+} */
 
 .administration .shadow-panel .graph_info .top {
     font-size: 20px;
@@ -744,12 +746,12 @@ body {
     display: block;
     text-align: center;
     padding: 15px;
-    background-color: #ddd;
+    background-color: #0DC66A;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     box-shadow: 0px 6px 20px 2px rgba(13, 198, 106, 0.06);
     text-decoration: none;
-    color: grey;
+    color: #FFFFFF;
 }
 
 /* administration page style end */
@@ -809,3 +811,45 @@ body {
 }
 
 /* trends page style end */
+
+.institutions .shadow-panel {
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.institutions .shadow-panel .title-image {
+    background-color: grey;
+    height: 200px;
+    margin: 5px 15px;
+    border-radius: 5px;
+}
+
+.institutions .shadow-panel .details {
+    margin: 15px;
+}
+
+.institutions .shadow-panel .details h3 {
+    color: #0DC66A;
+    margin-top: 0px;
+}
+.institutions .shadow-panel .details .info {
+    font-weight: 600;
+    color: #9DA8BC;
+    line-height: 1.7;
+}
+.institutions .shadow-panel .details .value {
+    color: #9DA8BC;
+    line-height: 1.7;
+}
+
+.institutions .shadow-panel .footer-button a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #0DC66A;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 6px 20px 2px rgba(13, 198, 106, 0.06);
+    text-decoration: none;
+    color: #FFFFFF;
+}

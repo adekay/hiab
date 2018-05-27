@@ -1,0 +1,30 @@
+[
+	{
+		"FHI Name": "FTH, Abakaliki",
+		"Disease": "Malaria",
+		"Disease Code": "MA135467",
+		"Status": "Moderate",
+		"Count": "345"
+	},
+	{
+		"FHI Name": "LUTH, Lagos",
+		"Disease": "Lassa Fever",
+		"Disease Code": "LFO43534",
+		"Status": "Critical",
+		"Count": "47"
+	},
+	{
+		"FHI Name": "LASUTH, Lagos",
+		"Disease": "Lassa Fever",
+		"Disease Code": "LFO43534",
+		"Status": "Critical",
+		"Count": "70"
+	},
+	{
+		"FHI Name": "JUTH, Jos",
+		"Disease": "Diabetes",
+		"Disease Code": "DI830484",
+		"Status": "Minor",
+		"Count": "4"
+	}
+]

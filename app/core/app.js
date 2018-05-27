@@ -25,6 +25,7 @@
         'app.administration.drugSupply',
         'app.administration.substandardDrug',
         'app.administration.expiredDrug',
+        'app.institutions',
         'app.form',
         'app.json',
         'app.mountains.details',

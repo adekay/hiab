@@ -1,0 +1,54 @@
+[
+	{
+		"Patient Name": "Xxxxxx Xxxxx",
+		"Health Institution": "ABUTH, Zaria",
+		"Total Clinic Visits": "12",
+		"Diagnosis": "Ovarian Infection",
+		"Doctoer On Call": "Dr Adebowale Albert",
+		"Age": "36",
+		"Gender": "Female",
+		"Status": "On Prescription",
+		"table": [
+			{
+				"Patient ID": "012344",
+				"Doctor On Call": "Dr. Francie Helpad",
+				"Diagnosis": "Brain Tumor",
+				"Status": "Critical",
+				"Prescription": "Augmenting 200mg",
+				"Dosage": "One tablet taken once daily"
+			},
+			{
+				"Patient ID": "012344",
+				"Doctor On Call": "Dr. Bisola Dada",
+				"Diagnosis": "Shingles",
+				"Status": "Moderate",
+				"Prescription": "Azitromicine",
+				"Dosage": "Two tablets taken 2 times daily"
+			},
+			{
+				"Patient ID": "012344",
+				"Doctor On Call": "Dr. Abdul Bisham",
+				"Diagnosis": "Fungal Infection",
+				"Status": "Moderate",
+				"Prescription": "Natrocipline",
+				"Dosage": "One table spoon 2 times daily"
+			},
+			{
+				"Patient ID": "012344",
+				"Doctor On Call": "Dr. Kasim Damilola",
+				"Diagnosis": "Rabies",
+				"Status": "Critical",
+				"Prescription": "Zinate 5mg",
+				"Dosage": "Two table taken 4 times daily"
+			},
+			{
+				"Patient ID": "012344",
+				"Doctor On Call": "Dr. Newe Rewane",
+				"Diagnosis": "Diabetes",
+				"Status": "Minor",
+				"Prescription": "Prayer",
+				"Dosage": "One tablet taken 3 times daily"
+			}
+		]
+	}
+]

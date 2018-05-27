@@ -1,0 +1,66 @@
+[
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Disease": "Malaria",
+		"Disease Code": "MA135467",
+		"Status": "Moderate",
+		"Count": "345"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NOH, Enugu",
+		"Disease": "Typhoid",
+		"Disease Code": "TYO45644",
+		"Status": "Critical",
+		"Count": "457"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Disease": "Lassa Fever",
+		"Disease Code": "LFO43534",
+		"Status": "Critical",
+		"Count": "47"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "LASUTH, Lagos",
+		"Disease": "Lassa Fever",
+		"Disease Code": "LFO43534",
+		"Status": "Critical",
+		"Count": "70"
+	},
+	{
+		"FHI Type": "FMC",
+		"FHI Name": "FMC, ido-Ekiti",
+		"Disease": "HIV",
+		"Disease Code": "HV345534",
+		"Status": "Minor",
+		"Count": "71"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NEC, Kaduna",
+		"Disease": "Malignant Neoplasms",
+		"Disease Code": "MN850954",
+		"Status": "Moderate",
+		"Count": "2"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "JUTH, Jos",
+		"Disease": "Diabetes",
+		"Disease Code": "DI830484",
+		"Status": "Minor",
+		"Count": "4"
+	},
+	{
+		"FHI Type": "FMC",
+		"FHI Name": "FMC, Umuahia",
+		"Disease": "Viral Hepatitis",
+		"Disease Code": "VH345534",
+		"Status": "Critical",
+		"Count": "7147"
+	}
+]

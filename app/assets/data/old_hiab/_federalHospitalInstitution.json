@@ -1,0 +1,34 @@
+[
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "JUTH, Jos",
+		"Total Revenue": "14,200,313",
+		"Revolving Rev": "6,000,310",
+		"Non-Revolving Rev": "8,200,003",
+		"Deposits": "1,333,454"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "LASUTH, Lagos",
+		"Total Revenue": "102,567,443",
+		"Revolving Rev": "45,503,131",
+		"Non-Revolving Rev": "57,064,413",
+		"Deposits": "3,902,573"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Total Revenue": "233,594,665",
+		"Revolving Rev": "202,304,060",
+		"Non-Revolving Rev": "31,290,605",
+		"Deposits": "6,048,429"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Total Revenue": "1,275,853,754",
+		"Revolving Rev": "975,700,743",
+		"Non-Revolving Rev": "300,153,011",
+		"Deposits": "740,385"
+	}
+]

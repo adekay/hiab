@@ -1,0 +1,66 @@
+[
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Physician Name": "Prof. Mohammed Umar",
+		"Specialization": "Obstretics & Gneacology",
+		"Department": "Gyneacology- ward 12",
+		"Patients Seen": "345"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NOH, Enugu",
+		"Physician Name": "Dr. Ojobo Umar",
+		"Specialization": "Oncology",
+		"Department": "Oncology - ward 4",
+		"Patients Seen": "457"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Physician Name": "Dr Adebowale Benson",
+		"Specialization": "Cardiology",
+		"Department": "Cardiology - ward 2",
+		"Patients Seen": "47"
+	},
+		{
+		"FHI Type": "SH",
+		"FHI Name": "LASUTH, Lagos",
+		"Physician Name": "Dr. Francie Helpad",
+		"Specialization": "Neuro Surgery",
+		"Department": "Neuro Science - ward 14",
+		"Patients Seen": "70"
+	},
+	{
+		"FHI Type": "FMC",
+		"FHI Name": "FMC, ido-Ekiti",
+		"Physician Name": "Prof. Bisola Dada",
+		"Specialization": "HIV",
+		"Department": "HIV - ward 5",
+		"Patients Seen": "71"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "NEC, Kaduna",
+		"Physician Name": "Prof. Abdul Bisham",
+		"Specialization": "Infectious Diseases",
+		"Department": "General - ward 12",
+		"Patients Seen": "256"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "JUTH, Jos",
+		"Physician Name": "Dr. Kasim Damilola",
+		"Specialization": "Diabetes",
+		"Department": "Diabetes - ward 12",
+		"Patients Seen": "403"
+	},
+	{
+		"FHI Type": "FMC",
+		"FHI Name": "FMC, Umuahia",
+		"Physician Name": "Dr. Newe Rewane",
+		"Specialization": "Hepatitis",
+		"Department": "Viral - ward 7",
+		"Patients Seen": "7147"
+	}
+]

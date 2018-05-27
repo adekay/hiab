@@ -1,0 +1,42 @@
+[
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "JUTH, Jos",
+		"Revenue": "14,200,313",
+		"General Account": "6,000,310",
+		"Revolving Fund": "8,200,003",
+		"Deposit Account": "1,333,454",
+		"Consolidated Account": "1,394,048",
+		"Payment Service Charge": "6,531,127"
+	},
+	{
+		"FHI Type": "SH",
+		"FHI Name": "LASUTH, Lagos",
+		"Revenue": "102,567,443",
+		"General Account": "45,503,131",
+		"Revolving Fund": "57,064,413",
+		"Deposit Account": "3,902,573",
+		"Consolidated Account": "5,957,948",
+		"Payment Service Charge": "3,256,756"
+	},
+	{
+		"FHI Type": "FTH",
+		"FHI Name": "FTH, Abakaliki",
+		"Revenue": "233,594,665",
+		"General Account": "202,304,060",
+		"Revolving Fund": "31,290,605",
+		"Deposit Account": "6,048,429",
+		"Consolidated Account": "689,348",
+		"Payment Service Charge": "6,369,751"
+	},
+		{
+		"FHI Type": "FTH",
+		"FHI Name": "LUTH, Lagos",
+		"Revenue": "1,275,853,754",
+		"General Account": "975,700,743",
+		"Revolving Fund": "300,153,011",
+		"Deposit Account": "740,385",
+		"Consolidated Account": "14,489,583",
+		"Payment Service Charge": "4,265,842"
+	}
+]

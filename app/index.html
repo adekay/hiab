@@ -41,8 +41,8 @@
                     <span>Epidemiological Data</span>
                 </a>
             </li>
-            <li role="presentation">
-                <a href="#">
+            <li role="presentation" data-ng-class="IC.getClass('root.institutions')">
+                <a data-ui-sref="root.institutions">
                     <span ng-include="'assets/images/health-institutions.svg'"></span>
                     <span>Health Institutions</span>
                 </a>
@@ -157,6 +157,7 @@
     <script src="core/administration/stocks/drugSupplyController.js"></script>
     <script src="core/administration/stocks/substandardDrugController.js"></script>
     <script src="core/administration/stocks/expiredDrugController.js"></script>
+    <script src="core/institutions/institutionsController.js"></script>
 
 
     <script src="core/form/formController.js"></script>

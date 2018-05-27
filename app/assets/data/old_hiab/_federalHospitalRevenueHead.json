@@ -1,0 +1,67 @@
+[
+	{
+		"FHI Name": "JUTH, Jos",
+		"Revenue": "164,825",
+		"Drug Revolving": "46,384",
+		"Theater": "87,854",
+		"Oxygen": "575,714",
+		"Nutrition": "81,412",
+		"Radiology": "5,523",
+		"Laboratory": "751,132",
+		"Oncology": "4,913,543",
+		"Dialysis": "6,455,158",
+		"Morbid": "25,585"
+	},
+	{
+		"FHI Name": "LASUTH, Lagos",
+		"Revenue": "522,335",
+		"Drug Revolving": "78,357",
+		"Theater": "64,125",
+		"Oxygen": "96,357",
+		"Nutrition": "85,123",
+		"Radiology": "6,957",
+		"Laboratory": "347,852",
+		"Oncology": "1,164,347",
+		"Dialysis": "8,852,349",
+		"Morbid": "51,856"
+	},
+	{
+		"FHI Name": "FTH, Abakaliki",
+		"Revenue": "759,600",
+		"Drug Revolving": "228,655",
+		"Theater": "69,875",
+		"Oxygen": "85,487",
+		"Nutrition": "20,522",
+		"Radiology": "9,202",
+		"Laboratory": "957,300",
+		"Oncology": "1,003,225",
+		"Dialysis": "1,870,011",
+		"Morbid": "10,905"
+	},
+	{
+		"FHI Name": "LUTH, Lagos",
+		"Revenue": "952,222",
+		"Drug Revolving": "97,145",
+		"Theater": "11,024",
+		"Oxygen": "54,970",
+		"Nutrition": "364,222",
+		"Radiology": "4,369",
+		"Laboratory": "794,200",
+		"Oncology": "8,778,386",
+		"Dialysis": "1,366,755",
+		"Morbid": "41,022"
+	},
+	{
+		"FHI Name": "NOH, Enugu",
+		"Revenue": "987,555",
+		"Drug Revolving": "12,352",
+		"Theater": "203,000",
+		"Oxygen": "11,520",
+		"Nutrition": "62,951",
+		"Radiology": "9,225",
+		"Laboratory": "465,754",
+		"Oncology": "1,000,000",
+		"Dialysis": "2,998,650",
+		"Morbid": "89,905"
+	}
+]

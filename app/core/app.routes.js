@@ -458,6 +458,20 @@
                         controllerAs: 'AEDC'
                     }
                 }
+            })
+            .state('root.institutions', {
+                url: 'institutions',
+                data: {
+                    title: 'Health institutions',
+                    breadcrumb: 'Health institutions'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'core/institutions/institutions.html',
+                        controller: 'InstitutionsController',
+                        controllerAs: 'INC'
+                    }
+                }
             });
 
         //$locationProvider.hashPrefix(''); // by default '!'
